@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="style.css">
+   <title>Calculator</title>
+</head>
+<body>
+   
+   <div class="calculator">
+      <input type="text" name="inputOutput" id = 'result'>
+      <div class="math">
+        <table>
+            <tr>
+         <td><input type="button" value = 'C' onclick = "Clear()"></td>
+         <td><input type="button" value = 'del' onclick ="Del('')"></td>
+         <td><input type="button" value = '%' onclick = "ANS('%')"></td>
+         <td><input type="button" value = '/' onclick = "ANS('/')"></td>
+            </tr>
+            <tr>
+         <td><input type="button" value = '7' onclick = "ANS('7')"></td>
+         <td><input type="button" value = '8' onclick = "ANS('8')"></td>
+         <td><input type="button" value = '9' onclick = "ANS('9')"></td>
+         <td><input type="button" value = 'x' onclick = "ANS('*')"></td>
+            </tr>
+            <tr>
+        <td><input type="button" value = '4' onclick = "ANS('4')"></td>
+         <td><input type="button" value = '5' onclick = "ANS('5')"></td>
+        <td> <input type="button" value = '6' onclick = "ANS('6')"></td>
+         <td><input type="button" value = '-' onclick = "ANS('-')"></td>
+        </tr>
+        <tr>
+         <td><input type="button" value = '1' onclick = "ANS('1')"></td>
+         <td><input type="button" value = '2' onclick = "ANS('2')"></td>
+         <td><input type="button" value = '3' onclick = "ANS('3')"></td>
+         <td><input type="button" value = '+' onclick = "ANS('+')"></td>
+        </tr>
+        <tr>
+         <td><input type="button" value = '00'onclick = "ANS('00')"></td>
+         <td><input type="button" value = '0' onclick = "ANS('0')"></td>
+         <td><input type="button" value = '.' onclick = "ANS('.')"></td>
+         <td><input type="button" value = '=' onclick = "Result()"></td>
+        </tr>
+        </table>
+      </div>
+   </div>
+   <script src = 'app.js' ></script>
+</body>
+</html>
