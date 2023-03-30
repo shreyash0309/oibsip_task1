@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    background-color: #e5e5fd;
+    min-height: 100vh;
+    border: 10px solid #1d1e4c;
+  }
+  
+  .content {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .top_section {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .top_section h1 {
+    font-size: 49px;
+    font-weight: bold;
+    color: #0609af;
+    text-align: justify;
+  }
+  .top_section h4 {
+    font-size: 30px;
+    color: #065110;
+    text-align: end;
+  }
+  
+  .image_container {
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .image_container,
+  img {
+    width: 300px;
+    height: 320px;
+  }
+  .about_section {
+    margin-top: 50px;
+  }
+  .about_section h2 {
+    font-size: 70px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-decoration: underline rgb(30, 160, 200);
+    text-underline-offset: auto;
+  }
+  .about_section p {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+    margin-left: 40px;
+  }
+  .early_life_section {
+    margin-top: 30px;
+  }
+  .early_life_section h2 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-underline-offset: auto;
+  }
+  .early_life_section p {
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+    margin-left: 40px;
+  }
+  .carrer_section {
+    margin-top: 20px;
+  }
+  .carrer_section h2 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-underline-offset: auto;
+  }
+  .carrer_section ul {
+    margin-left: 50px;
+  }
+  .carrer_section li {
+    margin-bottom: 15px;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 25px;
+    list-style: square;
+  }
+  .presidency_section {
+    margin-top: 20px;
+  }
+  .presidency_section h2 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-underline-offset: auto;
+  }
+  .presidency_section ul {
+    margin-left: 50px;
+  }
+  .presidency_section li {
+    margin-bottom: 15px;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 25px;
+    list-style: inside;
+  }
+  .award_section {
+    margin-top: 30px;
+  }
+  .award_section h2 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-underline-offset: auto;
+  }
+  .award_section ul {
+    margin-left: 50px;
+  }
+  .award_section li {
+    margin-bottom: 15px;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 25px;
+    list-style: unset;
+  }
+  .death_section {
+    margin-top: 30px;
+  }
+  .death_section h2 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-underline-offset: auto;
+  }
+  .death_section p {
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+    margin-left: 40px;
+  }
+  footer {
+    margin: 50px 0;
+  }
+  footer p {
+    text-align: end;
+  }
