@@ -1,1 +1,1 @@
-Task 1 : Simple calculator
+**TASK 1 : Simple calculator**
